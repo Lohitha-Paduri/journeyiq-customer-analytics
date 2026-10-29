@@ -1,0 +1,5 @@
+record_id,entity,issue_type,expected_label,injection_rule
+EVT-SES-2026-000001-0003,JourneyEvent,late_ingestion,1,ingestion lag exceeds 2 hours
+EVT-SES-2026-000001-0001,JourneyEvent,identity_merge_without_consent,1,customer linked to event with no granted consent
+EVT-SES-2026-000001-0006-DUP,JourneyEvent,duplicate_conversion,1,second purchase event references same order
+EVT-SES-2026-008703-0001,JourneyEvent,bot_activity,1,one event in a high-volume synthetic session marked as bot traffic

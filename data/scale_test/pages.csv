@@ -1,0 +1,7 @@
+page_id,page_name,page_type
+PAG-001,home,landing
+PAG-002,search,search
+PAG-003,product,product
+PAG-004,cart,cart
+PAG-005,checkout,checkout
+PAG-006,help,support
